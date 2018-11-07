@@ -1,6 +1,7 @@
 
 import clickElement from '../support/action/clickElement';
 import setInputField from '../support/action/setInputField';
+import waitForSeconds from '../support/action/waitForSeconds';
 import { When } from 'cucumber';
 
 
@@ -12,4 +13,9 @@ When(
 When(
   /^I (click|doubleclick) on the (link|button|element) "([^"]*)?"$/,
   clickElement
+);
+
+When(
+  /^I wait for "([^"]*)?" seconds$/,
+  waitForSeconds
 );
