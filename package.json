@@ -1,0 +1,39 @@
+{
+  "name": "cucumber-for-beginner",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shamrat17/cucumber-for-beginner.git"
+  },
+  "keywords": [
+    "webdriverio",
+    "cucumber",
+    "test",
+    "selenium"
+  ],
+  "author": "Abu Bakar Siddique (Shamrat)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shamrat17/cucumber-for-beginner/issues"
+  },
+  "homepage": "https://github.com/shamrat17/cucumber-for-beginner#readme",
+  "dependencies": {
+    "babel-preset-env": "~1.7.0",
+    "babel-register": "~6.26.0",
+    "chai": "~4.1.2",
+    "wdio-cucumber-framework": "~2.2.0",
+    "wdio-selenium-standalone-service": "~0.0.9",
+    "wdio-spec-reporter": "~0.1.2",
+    "webdriverio": "4.13.2"
+  },
+  "devDependencies": {
+    "babel-core": "~6.26.3",
+    "babel-jest": "~23.0.1",
+    "babel-polyfill": "~6.26.0",
+    "wdio-cucumber-reporter": "0.0.2"
+  }
+}
