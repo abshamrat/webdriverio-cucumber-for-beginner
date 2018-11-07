@@ -1,9 +1,7 @@
-import clickElement from '../support/action/clickElement';
+import openWebsite from '../support/action/openWebsite';
+const { Given } = require('cucumber');
 
-import { When } from 'cucumber';
-
-
-When(
-  /^I (click|doubleclick) on the (link|button|element) "([^"]*)?"$/,
-  clickElement
+Given(
+  /^I open the (url|site) "([^"]*)?"$/,
+  openWebsite
 );
