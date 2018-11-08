@@ -24,12 +24,10 @@ exports.config = {
       },
   }],
   sync: true,
-  //
   // Level of logging verbosity: silent | verbose | command | data | result |
-  // error
   logLevel: 'error',
   coloredLogs: true,
-  baseUrl: 'http://google.com',
+  baseUrl: 'http://localhost',
   waitforTimeout: 10000,
   connectionRetryTimeout: 90000,
   connectionRetryCount: 3,
