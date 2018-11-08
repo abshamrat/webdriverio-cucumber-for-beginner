@@ -1,4 +1,4 @@
-# cucumber-for-begineer
+# cucumber-for-beginner
 
 ## What we should know first?
 - What is BDD?
@@ -84,7 +84,7 @@ Now you are ready to write your own features.
 Tests are written in Gherkin syntax that means that you write down what's supposed to happen in a real language. All test files are located in ./test/features/* and have the file ending .feature. 
 
 ### Are you thinking about how much predefined steps we have?
-### check the list then start writting test using them
+### Check the list then start writting test using them
 
 ### Given steps
 - `I open the (url|site) "([^"]*)?"` <br>Open a site in the current browser window/tab
