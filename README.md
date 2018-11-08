@@ -1,6 +1,6 @@
 # cucumber-for-beginner
 
-## What we should know first?
+## What should we know first?
 - What is BDD?
 - What is Gherkin?
 - What is Cucumber?
