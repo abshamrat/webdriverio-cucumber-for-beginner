@@ -19,3 +19,8 @@ When(
   /^I wait for "([^"]*)?" seconds$/,
   waitForSeconds
 );
+
+When(
+  /^I press "([^"]*)?"$/,
+  pressButton
+);
