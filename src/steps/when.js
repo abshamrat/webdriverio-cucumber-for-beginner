@@ -1,6 +1,7 @@
 
 import clickElement from '../support/action/clickElement';
 import setInputField from '../support/action/setInputField';
+import pressButton from '../support/action/pressButton';
 import waitForSeconds from '../support/action/waitForSeconds';
 import { When } from 'cucumber';
 
