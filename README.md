@@ -94,6 +94,8 @@ Tests are written in Gherkin syntax that means that you write down what's suppos
 - `I (add|set) "([^"]*)?" to the inputfield "([^"]*)?"` <br>Add or set the content of an input field
 - `I press (Enter|return)` 
 <br>Send keypress event
+- `I wait for "([^"]*)?" seconds` 
+<br>Set browser wait value to perform next step
 
 ### Then steps
 - `I expect that the title is( not)* "([^"]*)?"` <br>Check the title of the current browser window/tab
