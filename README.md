@@ -92,6 +92,8 @@ Tests are written in Gherkin syntax that means that you write down what's suppos
 ### When steps
 - `I (click|doubleclick) on the (link|button|element) "([^"]*)?"` <br>(Double)click a link, button or element
 - `I (add|set) "([^"]*)?" to the inputfield "([^"]*)?"` <br>Add or set the content of an input field
+- `I press (Enter|return)` 
+<br>Send keypress event
 
 ### Then steps
 - `I expect that the title is( not)* "([^"]*)?"` <br>Check the title of the current browser window/tab
