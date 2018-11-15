@@ -75,7 +75,7 @@ let's have a look an example
 1. Download the repository [here]() or clone the git repo — git clone https://github.com/shamrat17/cucumber-for-beginner.git
 2. Now go to the project folder `cucumber-for-beginner` then open `terminal` on that directory and write
 - `npm install` and press enter
-3. If you want to run existing features then on `terminal` write
+3. If you want to run existing features then open up `terminal` and write
 - `npm test`
 
 Now you are ready to write your own features.
@@ -83,7 +83,7 @@ Now you are ready to write your own features.
 ## How to write a test
 Tests are written in Gherkin syntax that means that you write down what's supposed to happen in a real language. All test files are located in ./test/features/* and have the file ending .feature. 
 
-### Are you thinking about how much predefined steps we have?
+
 ### Check the list then start writting test using them
 
 ### Given steps
