@@ -117,7 +117,7 @@ Scenario: Check title of website after search
 This test opens the browser and navigates them to google.com to check if the title contains the search
 query after doing a search. As you can see, it is pretty simple and understandable for everyone.
 
-# How to run your written test/single test
+## How to run your written test/single test
 
 ```sh
 $ npm test -- --spec ./test/features/myFirstTest.feature
