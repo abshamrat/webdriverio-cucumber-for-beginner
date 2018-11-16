@@ -70,6 +70,7 @@ let's have a look an example
 
 ### Requirements:
 - You should have node version 6 or higher
+- If you don't have node then download from [here](https://nodejs.org/en/)
 
 ### Quick start
 1. Download the repository [here]() or clone the git repo — git clone https://github.com/shamrat17/cucumber-for-beginner.git
