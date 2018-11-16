@@ -11,6 +11,8 @@
 - Describes overall behaviors of the system
 - Customer focused
 
+it helps teams create business requirements that can be understood by the whole team
+
 ## What is Gherkin?
 - Gherkin is the language Cucumber uses to define test cases
 - It's non-technical
