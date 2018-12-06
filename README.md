@@ -49,6 +49,28 @@ Now there are testing tools that help to automate and execute scenarios like abo
 - Uses regular expression to match Gherkin to a Cucumber step
 - Cucumber step is what wraps the automation code
 
+## What is a Step Defination?
+As we are using JavaScript so a Step Definition is a JavaScript function with an expression that links it to one or more Gherkin steps. When Cucumber executes a Gherkin step in a scenario, it will look for a matching step definition to execute.
+
+To illustrate how this works, look at the following Gherkin Scenario:
+
+```gherkin
+Scenario: Some cukes
+  Given I have 48 cukes in my belly
+```
+
+The `I have 48 cukes in my belly` part of the step (the text following the Given keyword) will match the following step definition:
+
+```js
+const { Given } = require('cucumber')
+
+Given('I have {int} cukes in my belly', function (cukes) {
+  console.log(`Cukes: ${cukes}`)
+});
+```
+
+For every steps which is written in feature files has a defination like above. 
+
 ### Feature File
 A feature file is a description of a single feature of an application
 Login would be an example of this
