@@ -153,3 +153,8 @@ if you want to run all test then write
 $ npm test
 ```
 
+## Test report
+
+We already integrated a nice reporting module. After running each test it records the report in the `reports/index.html` file. So just browse this file in your web browser then you will see something like this:
+
+<img alt="test report" src="./reports.png"/>

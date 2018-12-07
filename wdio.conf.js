@@ -34,6 +34,16 @@ exports.config = {
   services: ['selenium-standalone'],
   framework: 'cucumber',
   reporters: ['cucumber'],
+  reporters: ['multiple-cucumber-html'],
+  reporterOptions: {
+    htmlReporter: {
+        jsonFolder: './tmp',
+        reportFolder: './reports',
+        pageTitle: "Test Reports",
+        reportName: "Test Reports",
+        pageFooter: "<div><p>Test Automation</p></div>"
+    },
+ },
   cucumberOpts: {
       backtrace: false,
       compiler: [
